@@ -1,10 +1,7 @@
-import Navigations from "../components/navigations";
-
 export default function AboutUs() {
     return (
         <div>
-            <Navigations />
-            <h1>About Us</h1>
+            <h1>about us</h1>
         </div>
     );
 }

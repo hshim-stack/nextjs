@@ -1,4 +1,4 @@
-"use client";
+"use client"; // this is a client side component 
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
@@ -11,7 +11,7 @@ export default function Navigations() {
             <ul>
                 <li>
                     <Link href="/">Home </Link>
-                    {path == "/" ? "🔥" : ""} // depend on which page we are in, we will see a fire emoji
+                    {path == "/" ? "🔥" : ""}
                 </li>
                 <li>
                     <Link href="/about-us">About us</Link>

@@ -1,10 +1,10 @@
 // app/layout.tsx
-
 import { Metadata } from "next";
+import Navigations from "./components/navigations";
 
 export const metadata: Metadata = {
-    title: "My App",
-    description: "My App Description",
+    title: "Learn Next JS",
+    description: "Learn Next JS",
 };
 
 export default function RootLayout({
@@ -14,7 +14,10 @@ export default function RootLayout({
 }) {
     return (
         <html lang="en">
-            <body>{children}</body>
+            <body>
+                <Navigations />
+                {children}
+            </body>
         </html>
     );
 }
