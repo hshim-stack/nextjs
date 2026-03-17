@@ -17,6 +17,10 @@ export default function Navigations() {
                     <Link href="/about-us">About us</Link>
                     {path == "/about-us" ? "🔥" : ""}
                 </li>
+                <li>
+                    <Link href="/movie">Movies</Link>
+                    {path == "/movie" ? "🔥" : ""}
+                </li>
             </ul>
         </nav>
     );
