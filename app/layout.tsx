@@ -1,6 +1,7 @@
 // app/layout.tsx
 import { Metadata } from "next";
 import Navigations from "./components/navigations";
+import "./styles/global.css";
 
 export const metadata: Metadata = {
     title: "Learn Next JS",
